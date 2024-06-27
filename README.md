@@ -1,4 +1,4 @@
-# Food-Ordering-System
+# Food Information and Ordering System
 Name of Project: Food Ordering System<br/><br/>
 Functionalities:<br/> 1. Sign-up & Login<br/>
                  2. Validate user (to check password & other details of user, or if user already exists)<br/>
