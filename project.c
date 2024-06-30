@@ -37,7 +37,7 @@ struct hotelDetails
 struct hotelDetails hotel[6];
 struct userDetails user[100];
 
-// Decalarations of functions
+// Declarations of functions
 void signup();
 void account_check();
 int is_valid();
@@ -49,7 +49,7 @@ void food_order(int food);
 void hotel_initialize();
 void hotels(int hotel_choice);
 
-// Gobal initialization of values
+// Global initialization of values
 int flag = 1, i, j = 0, At = -1, Dot = -1, caps = 0;
 int small = 0, special = 0, numbers = 0;
 int success = 0, validate, choice;
@@ -231,7 +231,7 @@ int is_valid()
             numbers = 0;
             special = 0;
 
-            // check the minimum no of occurence of small, caps, special, and numbers characters
+            // check the minimum no of occurrence of small, caps, special, and numbers characters
             for (i = 0; temp_password1[i] != '\0'; i++)
             {
                 if (temp_password1[i] >= 'A' && temp_password1[i] <= 'Z')
@@ -551,7 +551,7 @@ void food_order(int food)
     }
 }
 
-// Cart function implimentation
+// Cart function implementation
 void cart()
 {
     printf("\n\n**********Cart**********\n");
